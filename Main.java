@@ -1,27 +1,19 @@
-import java.util.Scanner;
+/******************************************************************************
+
+                            Online Java Compiler.
+                Code, Compile, Run and Debug java program online.
+Write your code in this editor and press "Run" button to execute it.
+
+*******************************************************************************/
 
 public class Main
 {
 	public static void main(String[] args) {
-	    final double PI = 3.1415;
-		Scanner reader = new Scanner(System.in);
-		System.out.println("Enter distance to target.\n");
-		double d = reader.nextDouble();
-		System.out.println("Enter the height of the battery relative to the water line.\n");
-		double h = reader.nextDouble();
-		System.out.println(" Enter the initial velocity of the shell.\n");
-		double v = reader.nextDouble();
-		
-		double a = -4.9*(d/v)*(d/v);
-		double b = d;
-		double c = a + h;
-		
-		double tanTheta = (-b + Math.sqrt(b*b - 4*a*c))/(2*a);
-		double angle = Math.atan(tanTheta)*180/PI;
-		System.out.println("The angle is " + angle);
-		
-		
-
-		
+		System.out.println("Hello World");
+		System.out.println("My name is Tammy Huang");
+		System.out.println("My favorite TV show is NCIS");
+		System.out.println("I enjoy playing tennis and shopping for clothes");
+		System.out.println("I want to major in business marketing");
+		System.out.println("My dream school is USC");
 	}
 }
